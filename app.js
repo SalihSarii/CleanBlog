@@ -10,7 +10,7 @@ const app = express()
 
 //CONNECT DB
 //mongoose.connect('mongodb://127.0.0.1/cleanblog-test-db')
-mongoose.connect('mongodb+srv://Salihsari:<869RY8JxsbtoOCd3>@cluster0.byuoezb.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://Salihsari:869RY8JxsbtoOCd3@cluster0.byuoezb.mongodb.net/?retryWrites=true&w=majority')
 
 //TEMPLATE ENGINE
 app.set("view engine","ejs")
